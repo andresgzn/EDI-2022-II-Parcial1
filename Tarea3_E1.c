@@ -11,7 +11,7 @@ int main()
 
     printf("Precio del producto: ");
     scanf("%f", &precio);
-    
+
     printf("Descuento: ");
     scanf("%f", &descuento);
 

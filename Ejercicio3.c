@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-//Separar una cantidad en la menor cantidad de billetes posible
-
 int main()
 {
     int cantidad, billete1000, billete500, billete200, billete100, billete50, billete20;

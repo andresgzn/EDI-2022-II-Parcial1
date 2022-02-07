@@ -7,23 +7,21 @@
 
 int main()
 {
-    int dias, horas, minutos, segundos, total_segundos;
+    int dias, horas, minutos, segundos;
 
     printf("La cantidad total de segundos es: ");
-    scanf("%d", &total_segundos);
+    scanf("%d", &segundos);
 
     printf("\n");
 
-    dias=total_segundos/60/60/24;
-    total_segundos=total_segundos-(dias*86400);
+    dias=segundos/60/60/24;
+    segundos-=(dias*86400);
 
-    horas=total_segundos/60/60;
-    total_segundos=total_segundos-(horas*3600);
+    horas=segundos/60/60;
+    segundos-=(horas*3600);
 
-    minutos=total_segundos/60;
-    total_segundos=total_segundos-(minutos*60);
-
-    segundos=total_segundos;
+    minutos=segundos/60;
+    segundos-=(minutos*60);
 
     printf("\n");
 

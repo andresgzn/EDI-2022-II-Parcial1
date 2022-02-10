@@ -25,9 +25,11 @@ int main()
     scanf("%f", &promedio);
 
     if(promedio>=6)
-        printf("El alumno esta aprobado");
+        printf("El alumno esta aprobado en ordinario");
+    else if(promedio<6 && promedio>=5)
+        printf("El alumno esta reprobado y en extraordinario");
     else
-        printf("El alumno esta reprobado");
+        printf("El alumno esta reprobado y en titulacion");
 
 
     return 0;

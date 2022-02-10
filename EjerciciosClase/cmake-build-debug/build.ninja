@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: EDI_2022_II_Parcial1
+# Project: EjerciciosClase
 # Configurations: Debug
 # =============================================================================
 
@@ -39,46 +39,46 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/andre/edi-2022-II/EDI-2022-II-Parcial1/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/andre/edi-2022-II/EDI-2022-II-Parcial1/EjerciciosClase/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target EDI_2022_II_Parcial1
+# Object build statements for EXECUTABLE target EjerciciosClase
 
 
 #############################################
-# Order-only phony target for EDI_2022_II_Parcial1
+# Order-only phony target for EjerciciosClase
 
-build cmake_object_order_depends_target_EDI_2022_II_Parcial1: phony || CMakeFiles/EDI_2022_II_Parcial1.dir
+build cmake_object_order_depends_target_EjerciciosClase: phony || CMakeFiles/EjerciciosClase.dir
 
-build CMakeFiles/EDI_2022_II_Parcial1.dir/EjerciciosClase/Ejercicio4.c.obj: C_COMPILER__EDI_2022_II_Parcial1_Debug C$:/Users/andre/edi-2022-II/EDI-2022-II-Parcial1/EjerciciosClase/Ejercicio4.c || cmake_object_order_depends_target_EDI_2022_II_Parcial1
-  DEP_FILE = CMakeFiles\EDI_2022_II_Parcial1.dir\EjerciciosClase\Ejercicio4.c.obj.d
+build CMakeFiles/EjerciciosClase.dir/Ejercicio5.c.obj: C_COMPILER__EjerciciosClase_Debug C$:/Users/andre/edi-2022-II/EDI-2022-II-Parcial1/EjerciciosClase/Ejercicio5.c || cmake_object_order_depends_target_EjerciciosClase
+  DEP_FILE = CMakeFiles\EjerciciosClase.dir\Ejercicio5.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\EDI_2022_II_Parcial1.dir
-  OBJECT_FILE_DIR = CMakeFiles\EDI_2022_II_Parcial1.dir\EjerciciosClase
+  OBJECT_DIR = CMakeFiles\EjerciciosClase.dir
+  OBJECT_FILE_DIR = CMakeFiles\EjerciciosClase.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target EDI_2022_II_Parcial1
+# Link build statements for EXECUTABLE target EjerciciosClase
 
 
 #############################################
-# Link the executable EDI_2022_II_Parcial1.exe
+# Link the executable EjerciciosClase.exe
 
-build EDI_2022_II_Parcial1.exe: C_EXECUTABLE_LINKER__EDI_2022_II_Parcial1_Debug CMakeFiles/EDI_2022_II_Parcial1.dir/EjerciciosClase/Ejercicio4.c.obj
+build EjerciciosClase.exe: C_EXECUTABLE_LINKER__EjerciciosClase_Debug CMakeFiles/EjerciciosClase.dir/Ejercicio5.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\EDI_2022_II_Parcial1.dir
+  OBJECT_DIR = CMakeFiles\EjerciciosClase.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = EDI_2022_II_Parcial1.exe
-  TARGET_IMPLIB = libEDI_2022_II_Parcial1.dll.a
-  TARGET_PDB = EDI_2022_II_Parcial1.exe.dbg
+  TARGET_FILE = EjerciciosClase.exe
+  TARGET_IMPLIB = libEjerciciosClase.dll.a
+  TARGET_PDB = EjerciciosClase.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\andre\edi-2022-II\EDI-2022-II-Parcial1\cmake-build-debug && "C:\Users\andre\Desktop\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\andre\edi-2022-II\EDI-2022-II-Parcial1\EjerciciosClase\cmake-build-debug && "C:\Users\andre\Desktop\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\andre\edi-2022-II\EDI-2022-II-Parcial1\cmake-build-debug && "C:\Users\andre\Desktop\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\andre\edi-2022-II\EDI-2022-II-Parcial1 -BC:\Users\andre\edi-2022-II\EDI-2022-II-Parcial1\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\andre\edi-2022-II\EDI-2022-II-Parcial1\EjerciciosClase\cmake-build-debug && "C:\Users\andre\Desktop\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\andre\edi-2022-II\EDI-2022-II-Parcial1\EjerciciosClase -BC:\Users\andre\edi-2022-II\EDI-2022-II-Parcial1\EjerciciosClase\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build EDI_2022_II_Parcial1: phony EDI_2022_II_Parcial1.exe
+build EjerciciosClase: phony EjerciciosClase.exe
 
 # =============================================================================
 # Folder targets.
@@ -107,9 +107,9 @@ build EDI_2022_II_Parcial1: phony EDI_2022_II_Parcial1.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/andre/edi-2022-II/EDI-2022-II-Parcial1/cmake-build-debug
+# Folder: C:/Users/andre/edi-2022-II/EDI-2022-II-Parcial1/EjerciciosClase/cmake-build-debug
 
-build all: phony EDI_2022_II_Parcial1.exe
+build all: phony EjerciciosClase.exe
 
 # =============================================================================
 # Built-in targets

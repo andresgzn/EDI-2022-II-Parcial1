@@ -3,4 +3,4 @@ project(EjerciciosClase C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(EjerciciosClase Ejercicio8_Ciclos.c)
+add_executable(EjerciciosClase Ejercicio9_Ciclos.c)

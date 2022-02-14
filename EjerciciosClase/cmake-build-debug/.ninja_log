@@ -1,10 +1,21 @@
 # ninja log v5
-2	124	6662977539454564	build.ninja	2a89c1593e8675ab
+2	124	6665549584198651	build.ninja	2a89c1593e8675ab
 1	98	6662973769036890	CMakeFiles/EjerciciosClase.dir/Ejercicio7_Ciclos.c.obj	9d16b620ed22a3ca
 3	126	6662107951610563	CMakeFiles/EjerciciosClase.dir/Ejercicio5.c.obj	5b1c1dd4f0aef3a9
-100	240	6662973770340741	EjerciciosClase.exe	c2c487616cce6faf
-3	98	6662969995703144	CMakeFiles/EjerciciosClase.dir/Ejercicio6_Ciclos.c.obj	985012ab67892ff5
-1	67	6662978670199846	CMakeFiles/EjerciciosClase.dir/Ejercicio8_Ciclos.c.obj	59bf9b05dea394ab
-68	162	6662978670980943	EjerciciosClase.exe	8c578d0791ba17eb
-2	83	6662982340619191	CMakeFiles/EjerciciosClase.dir/Ejercicio8_Ciclos.c.obj	59bf9b05dea394ab
 84	192	6662982341716762	EjerciciosClase.exe	8c578d0791ba17eb
+3	98	6662969995703144	CMakeFiles/EjerciciosClase.dir/Ejercicio6_Ciclos.c.obj	985012ab67892ff5
+2	83	6662982340619191	CMakeFiles/EjerciciosClase.dir/Ejercicio8_Ciclos.c.obj	59bf9b05dea394ab
+1	146	6665552041439361	CMakeFiles/EjerciciosClase.dir/Ejercicio9_Ciclos.c.obj	878e3d37905c2c8b
+147	382	6665552043634629	EjerciciosClase.exe	8cd000a04097bfd6
+3	127	6665556730572387	CMakeFiles/EjerciciosClase.dir/Ejercicio9_Ciclos.c.obj	878e3d37905c2c8b
+128	283	6665556732138627	EjerciciosClase.exe	8cd000a04097bfd6
+3	112	6665557844347859	CMakeFiles/EjerciciosClase.dir/Ejercicio9_Ciclos.c.obj	878e3d37905c2c8b
+113	260	6665557845918147	EjerciciosClase.exe	8cd000a04097bfd6
+2	96	6665564519290204	CMakeFiles/EjerciciosClase.dir/Ejercicio9_Ciclos.c.obj	878e3d37905c2c8b
+96	225	6665564520517867	EjerciciosClase.exe	8cd000a04097bfd6
+2	99	6665564922126416	CMakeFiles/EjerciciosClase.dir/Ejercicio9_Ciclos.c.obj	878e3d37905c2c8b
+100	213	6665564923259028	EjerciciosClase.exe	8cd000a04097bfd6
+2	829	6665565813089417	CMakeFiles/EjerciciosClase.dir/Ejercicio9_Ciclos.c.obj	878e3d37905c2c8b
+829	1183	6665565816538678	EjerciciosClase.exe	8cd000a04097bfd6
+3	128	6665571719017188	CMakeFiles/EjerciciosClase.dir/Ejercicio9_Ciclos.c.obj	878e3d37905c2c8b
+129	285	6665571720587414	EjerciciosClase.exe	8cd000a04097bfd6

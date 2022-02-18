@@ -1,11 +1,12 @@
 # ninja log v5
-2	124	6666436968871832	build.ninja	2a89c1593e8675ab
+2	124	6669008130701182	build.ninja	2a89c1593e8675ab
 1	98	6662973769036890	CMakeFiles/EjerciciosClase.dir/Ejercicio7_Ciclos.c.obj	9d16b620ed22a3ca
 4	124	6666424825606342	CMakeFiles/EjerciciosClase.dir/Ejercicio10_Ciclos.c.obj	66a625a98c56adc8
 3	126	6662107951610563	CMakeFiles/EjerciciosClase.dir/Ejercicio5.c.obj	5b1c1dd4f0aef3a9
-125	270	6666424827016257	EjerciciosClase.exe	e0af4fd3af1a1eb8
+105	236	6666438663618825	EjerciciosClase.exe	c4ae7966cc6cb46f
 3	98	6662969995703144	CMakeFiles/EjerciciosClase.dir/Ejercicio6_Ciclos.c.obj	985012ab67892ff5
 2	83	6662982340619191	CMakeFiles/EjerciciosClase.dir/Ejercicio8_Ciclos.c.obj	59bf9b05dea394ab
 3	128	6665571719017188	CMakeFiles/EjerciciosClase.dir/Ejercicio9_Ciclos.c.obj	878e3d37905c2c8b
 0	104	6666438662337972	CMakeFiles/EjerciciosClase.dir/Ejercicio11_Funciones.c.obj	f7375702d3a38cab
-105	236	6666438663618825	EjerciciosClase.exe	c4ae7966cc6cb46f
+1	164	6669020467853250	CMakeFiles/EjerciciosClase.dir/Ejercicio12_Funciones.c.obj	deef94080d46cee
+165	342	6669020469571599	EjerciciosClase.exe	1a993cf5c6f23dfd

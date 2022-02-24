@@ -1,6 +1,6 @@
 #include <stdio.h>
-#define N 10
-//#define N 15
+//#define N 10
+#define N 15
 //#define N 20
 
 void mayorymenor(int *mayor, int *menor);
@@ -9,36 +9,41 @@ int main()
 {
     int mayor, menor;
 
+    printf("---- NUMERO MAYOR Y MENOR ----\n");
+
     mayorymenor(&mayor, &menor);
 
-    printf("El numero mayor es el: %d\n", mayor);
+    printf("\n");
 
+    printf("------------------------------\n");
+    printf("El numero mayor es el: %d\n", mayor);
+    printf("------------------------------\n");
+
+    printf("------------------------------\n");
     printf("El numero menor es el: %d\n", menor);
+    printf("------------------------------\n");
 
     return 0;
 }
 
 void mayorymenor(int *mayor, int *menor)
 {
-    int numero1, numero2 = 0, i;
+    int numero, i;
 
     for(i = 0; i < N; i++)
     {
-        printf("Escribe un numero: ");
-        scanf("%d", &numero1);
+        printf(" Escribe un numero: ");
+        scanf("%d", &numero);
 
-        if(numero1 > numero2)
+        if(i == 0)
         {
-            *mayor = numero1;
-            *menor = numero2;
-        }
-        else
-        {
-            *mayor = numero2;
-            *menor = numero1;
+            *mayor=numero;
+            *menor=numero;
         }
 
-        numero2 = numero1;
-
+        if(numero > *mayor)
+            *mayor = numero;
+        else if(numero < *menor)
+            *menor = numero;
     }
 }

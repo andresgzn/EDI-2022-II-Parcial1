@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "EDI_2022_II_Parcial1.exe"
+			"path" : "EjerciciosClase.exe"
 		},
 		{
-			"path" : "EDI_2022_II_Parcial1.pdb"
+			"path" : "EjerciciosClase.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -59,7 +59,7 @@
 			]
 		}
 	],
-	"id" : "EDI_2022_II_Parcial1::@6890427a1f51a3e7e1df",
+	"id" : "EjerciciosClase::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -79,8 +79,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "EDI_2022_II_Parcial1",
-	"nameOnDisk" : "EDI_2022_II_Parcial1.exe",
+	"name" : "EjerciciosClase",
+	"nameOnDisk" : "EjerciciosClase.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -101,7 +101,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Tarea6_E2.c",
+			"path" : "Ejercicio15_ArreglosP.c",
 			"sourceGroupIndex" : 0
 		}
 	],

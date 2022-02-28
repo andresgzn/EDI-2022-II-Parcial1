@@ -16,10 +16,12 @@
 
 #include <stdio.h>
 
-#define NUMERO_ALUMNOS 5
+#define NUMERO_ALUMNOS 2
 
 void claves(int c[NUMERO_ALUMNOS]);
 void calificaciones(float p1[NUMERO_ALUMNOS], float p2[NUMERO_ALUMNOS], float p3[NUMERO_ALUMNOS], int c[NUMERO_ALUMNOS]);
+void promedioAlumnos(float p1[NUMERO_ALUMNOS], float p2[NUMERO_ALUMNOS], float p3[NUMERO_ALUMNOS], int c[NUMERO_ALUMNOS], float promedio1[NUMERO_ALUMNOS]);
+void leeNombres(char nombres[NUMERO_ALUMNOS][50]);
 
 int main()
 {
@@ -27,6 +29,12 @@ int main()
     float parcial1[NUMERO_ALUMNOS];
     float parcial2[NUMERO_ALUMNOS];
     float parcial3[NUMERO_ALUMNOS];
+    float promedio1[NUMERO_ALUMNOS];
+
+    char nombres[NUMERO_ALUMNOS][50];
+
+    leeNombres(nombres);
+    printf("\n");
 
     claves(clave);
     printf("\n");
@@ -34,7 +42,23 @@ int main()
     calificaciones(parcial1, parcial2, parcial3, clave);
     printf("\n");
 
+    promedioAlumnos(parcial1, parcial2, parcial3, clave, promedio1);
+    printf("\n");
+
+
+
     return 0;
+}
+
+void leeNombres(char nombres[NUMERO_ALUMNOS][50])
+{
+    for (int i = 0; i < NUMERO_ALUMNOS; ++i)
+    {
+        printf("Dame el nombre del alumno %d: ", i+1);
+        scanf("%s", nombres[i]);
+
+        //printf("%s\n",nombres[i]);
+    }
 }
 
 void claves(int c[NUMERO_ALUMNOS])
@@ -60,5 +84,16 @@ void calificaciones(float p1[NUMERO_ALUMNOS], float p2[NUMERO_ALUMNOS], float p3
 
         printf("Parcial 3: ");
         scanf("%f", &p3[i]);
+
+        printf("\n");
+    }
+}
+
+void promedioAlumnos(float p1[NUMERO_ALUMNOS], float p2[NUMERO_ALUMNOS], float p3[NUMERO_ALUMNOS], int c[NUMERO_ALUMNOS], float promedio1[NUMERO_ALUMNOS])
+{
+    for (int i = 0; i < NUMERO_ALUMNOS; ++i)
+    {
+        promedio1[i] = (p1[i] + p2[i] + p3[i]) / 3;
+        printf("El alumno %d tiene: %.2f\n", c[i], promedio1[i]);
     }
 }

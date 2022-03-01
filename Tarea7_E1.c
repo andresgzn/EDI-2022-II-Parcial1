@@ -32,12 +32,14 @@ void pideOracion(char oracion[TAM])
 {
     printf(" Cadena: ");
     scanf("%[^\n]", oracion);
+
+    fflush(stdin);
 }
 
 void pideCaracter(char *c)
 {
     printf("Caracter: ");
-    scanf("%s", &*c);
+    scanf("%c", &*c);
 }
 
 int calculaCaracter(char oracion[TAM], char caracter)

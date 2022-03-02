@@ -11,12 +11,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f6b1607-b9a9-4046-866e-23e73a4f035a" name="Changes" comment="">
+    <list default="true" id="a897984e-ac07-4836-a533-288f7c3bc671" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-64ab7cba9af584df1446.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-01T22-19-42-0133.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-EDI_2022_II_Parcial1-Debug-532a2ffd48e641ab0a93.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea7_E2.c" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea7_E2.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tarea7_E3.c" beforeDir="false" afterPath="$PROJECT_DIR$/Tarea7_E3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1ee99ac0b181aa90952e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-03-02T00-34-16-0654.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-EDI_2022_II_Parcial1-Debug-a8f142f20fb8ae38d081.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
@@ -42,7 +44,7 @@
     <option name="majorVersion" value="2021" />
     <option name="minorVersion" value="3.2" />
   </component>
-  <component name="ProjectId" id="25o6Tr0hD5TffpABjk15R7ixChH" />
+  <component name="ProjectId" id="25qWx3MRWr582oMSxw8toiA1UC5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,12 +73,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5f6b1607-b9a9-4046-866e-23e73a4f035a" name="Changes" comment="" />
-      <created>1646181102437</created>
+      <changelist id="a897984e-ac07-4836-a533-288f7c3bc671" name="Changes" comment="" />
+      <created>1646255339713</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1646181102437</updated>
-      <workItem from="1646181104653" duration="4267000" />
+      <updated>1646255339713</updated>
+      <workItem from="1646255341621" duration="4547000" />
     </task>
     <servers />
   </component>

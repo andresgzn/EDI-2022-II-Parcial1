@@ -15,7 +15,7 @@ int main()
 
     for (int i = 0; i < MAX; ++i)
     {
-        printf("Dato No. %d: ",i+1);
+        printf("Dato No. %d:",i+1);
         scanf("%d", &enteros[i]);
     }
 

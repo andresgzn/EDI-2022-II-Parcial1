@@ -97,6 +97,7 @@ float ventaTotal(int stockProductos[TAM], float precioProductos[TAM])
 
     return (venta);
 
+
 }
 
 

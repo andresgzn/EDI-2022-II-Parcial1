@@ -5,7 +5,7 @@
 void capturaDatos(int arr1[N][M], int arr2[N][M]);
 void sumaMatrices(int arr1[N][M], int arr2[N][M], int suma[N][M]);
 void promedioRenglones(int suma[N][M], float promedioRen[N]);
-void promedioColumnas(int suma[N][M], float promedioCol[N]);
+void promedioColumnas(int suma[N][M], float promedioCol[M]);
 
 int main()
 {

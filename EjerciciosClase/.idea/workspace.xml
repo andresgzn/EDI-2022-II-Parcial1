@@ -11,10 +11,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d3dcd05-2297-4282-89f2-a3c0be97e06b" name="Changes" comment="">
+    <list default="true" id="9240f0ad-2ccc-4620-af3c-2fe41d1ee460" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-94001395e955caaee4d4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-02-25T15-07-58-0588.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-EjerciciosClase-Debug-dad43a93a9cdb7dfc059.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +44,7 @@
     <option name="majorVersion" value="2021" />
     <option name="minorVersion" value="3.2" />
   </component>
-  <component name="ProjectId" id="25bgsjU8NIe25MMo5mOhpSGSlgk" />
+  <component name="ProjectId" id="266lpWPdSPKtgHUGQghh1nNexmv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,9 +58,13 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EjerciciosClase" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EjerciciosClase" TARGET_NAME="EjerciciosClase" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="EjerciciosClase" RUN_TARGET_NAME="EjerciciosClase">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -63,18 +74,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3d3dcd05-2297-4282-89f2-a3c0be97e06b" name="Changes" comment="" />
-      <created>1645801409595</created>
+      <changelist id="9240f0ad-2ccc-4620-af3c-2fe41d1ee460" name="Changes" comment="" />
+      <created>1646752100560</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1645801409595</updated>
-      <workItem from="1645801410929" duration="3364000" />
-      <workItem from="1646060160129" duration="3254000" />
-      <workItem from="1646094457516" duration="129000" />
-      <workItem from="1646146996371" duration="3347000" />
-      <workItem from="1646172289402" duration="10000" />
-      <workItem from="1646666555721" duration="1227000" />
-      <workItem from="1646687959372" duration="21000" />
+      <updated>1646752100560</updated>
+      <workItem from="1646752102034" duration="1946000" />
     </task>
     <servers />
   </component>
